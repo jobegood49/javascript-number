@@ -1,5 +1,6 @@
 console.log('hello');
 
+// operations
 let a = 2;
 let b = 4;
 
@@ -10,8 +11,9 @@ let mod = 2 % 4;
 
 console.log(sum, mult, div, mod);
 
+// array
 let arr1 = [2, 3, 5, 7];
-let arr2 = [2, 3, 5, 7];
+let arr2 = [8, 2, 4, 10];
 
 let c = arr1[0] * arr2[3];
 
@@ -20,3 +22,12 @@ console.log(c);
 let arrNew = arr1.pop();
 console.log('arrNew', arrNew);
 console.log('arr1', arr1);
+
+//loop
+for (let i = 0; i < 5; i++) {
+  console.log(arr2[i]);
+}
+
+arr1.forEach(el => {
+  console.log(el);
+});
