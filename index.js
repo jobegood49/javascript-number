@@ -1,33 +1,37 @@
-console.log('hello');
+console.log(`Hello`)
 
 // operations
-let a = 2;
-let b = 4;
+const alpha = 2
+const beta = 4
 
-let sum = 2 + 4;
-let mult = 2 * 8;
-let div = 2 / 4;
-let mod = 2 % 4;
+const result_sum = 2 + 4
+const result_multiplication = 2 * 8
+const result_division = 2 / 4
+const result_modulus = 2 % 4
 
-console.log(sum, mult, div, mod);
+console.log(`result_sum = ${result_sum}
+result_multiplication = ${result_multiplication}
+result_division = ${result_division}
+result_modulus = ${result_modulus}
+`)
 
 // array
-let arr1 = [2, 3, 5, 7];
-let arr2 = [8, 2, 4, 10];
+const array1 = [2, 3, 5, 7]
+const array2 = [8, 2, 4, 10]
 
-let c = arr1[0] * arr2[3];
+const resultMultiplicationFromArrayItem = array1[0] * array2[3]
 
-console.log(c);
+console.log(resultMultiplicationFromArrayItem)
 
-let arrNew = arr1.pop();
-console.log('arrNew', arrNew);
-console.log('arr1', arr1);
+const newArray = array1.pop()
+console.log('newArray', newArray)
+console.log('array1', array1)
 
-//loop
+// loop
 for (let i = 0; i < 5; i++) {
-  console.log(arr2[i]);
+  console.log(array2[i])
 }
 
-arr1.forEach(el => {
-  console.log(el);
-});
+array1.forEach(el => {
+  console.log(el)
+})
